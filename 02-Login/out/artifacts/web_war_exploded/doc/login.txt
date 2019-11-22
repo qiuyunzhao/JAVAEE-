@@ -14,7 +14,12 @@
 			需要连接数据库(在mySql中创建用户表)
 	使用MVC思想完成
 			
-			
+
+
+http://localhost:8080/login
+
+index.jsp --> /page (PageServlet)登录页面 --> /login (LoginServlet)登录请求页面 -->用户名密码正确 --> 重定向 -->/login/main (MainServlet)
+                                                                                           否则 -->请求转发-->/page (PageServlet)登录页面
 			
 			
 			

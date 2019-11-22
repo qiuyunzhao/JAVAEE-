@@ -6,6 +6,6 @@
   </head>
   <body>
     <b>02_Login</b>
-  <a href="http://localhost:8080/login/page">入口</a>
+  <a href="http://localhost:8080/login/ck">应用入口</a>
   </body>
 </html>

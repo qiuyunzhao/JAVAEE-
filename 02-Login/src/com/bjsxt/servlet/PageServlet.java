@@ -34,7 +34,7 @@ public class PageServlet extends HttpServlet {
         }
 
         resp.getWriter().write("<body>");
-        resp.getWriter().write("<form action='login' method='post'>");
+        resp.getWriter().write("<form action='http://localhost:8080/login/login' method='post'>");
         resp.getWriter().write("用户名：<input type='test' name='uname' value=''/><br/>");
         resp.getWriter().write("密  码：<input type='password' name='pwd' value=''/><br/>");
         resp.getWriter().write("登录：<input type='submit' value='登录'/><br/>");

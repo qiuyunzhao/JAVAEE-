@@ -13,7 +13,7 @@ import com.bjsxt.service.LoginService;
  */
 public class LoginServiceImpl implements LoginService {
 
-    //创建Dao层过度对象
+    //创建Dao层对象
     LoginDao ld = new LoginDaoImpl();
 
     //校验用户登录信息
